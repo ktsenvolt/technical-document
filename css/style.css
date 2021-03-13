@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10;
+}
+#doc {
+  margin-top: 25px;
+}
+header {
+  color: black;
+  margin: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #1bb14c;
+  color: white;
+}
+.main-section {
+  margin-left: 10px;
+}
+nav {
+  position: fixed;
+}
+@media screen and (min-width: 800) {
+  nav {
+    font-size: 1em;
+  }
+}
+code {
+  /*color:red;*/
+  font-size: 1.3em;
+  /*font-weight:bold;*/
+  background-color: #f7ff0152;
+}
